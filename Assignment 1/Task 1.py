@@ -1,0 +1,6 @@
+a=float(input('Enter the first number:'))
+b=float(input('Enter the second number:'))
+print('Addition:', a+b)
+print('Subtraction:', a-b)
+print('Multiplication:',a*b)
+print('cannot_perform_divion_with_zero') if b==0 else print('Division:',a/b)
